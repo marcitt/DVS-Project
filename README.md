@@ -14,8 +14,7 @@ I hope to extend some of the findings from this mini project into my master's pr
 
 ---
 
-The aims are to create the processing pipeline and then demonstrate the usage in a particular accessibility context
-e.g. my initial plan was to demonstrate how this could be used for head-tracking to enable
+The aims are to create the processing pipeline and then demonstrate the usage in a particular accessibility context - in this case I choose to focus on eye-tracking.
 
 ## Setup Instructions
 
