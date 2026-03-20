@@ -30,9 +30,10 @@ bounding_boxes, centres = extract_icons(resized)
 
 for p in centres:
     cv2.circle(resized,(int(p[0]),int(p[1])), 5, (255,0,0), -1)
+    
+rgb = cv2.cvtColor(resized, cv2.COLOR_BGR2RGB)
 
-cv2.imwrite("latest_screenshot.png", resized)
-cv2.imwrite("bounding_boxes.png", bounding_boxes)
+cv2.imwrite("latest_screenshot.png", rgb)
 
 ## EYE TRACKING CODE
 
