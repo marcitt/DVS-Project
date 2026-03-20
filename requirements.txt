@@ -3,3 +3,5 @@ matplotlib
 numpy
 scikit-learn
 ipykernel
+mediapipe==0.10.9
+pyautogui
