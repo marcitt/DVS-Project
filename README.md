@@ -60,6 +60,7 @@ Here I wanted to introduce the idea of eye-snapping e.g. when the cursor approac
 The goal here is to help users who may have difficulty with stable movement or precision - addressing some of the existing problems associated with eye-tracking systems. 
 
 ## Quick Video Demo
+https://drive.google.com/file/d/18CXzTmuBRaIngzlLHF5UOiLpp2jIyEOJ/view?usp=sharing
 
 ## Contributions & Reflection
 I worked independently on the project (no partner)
