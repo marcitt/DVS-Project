@@ -5,6 +5,8 @@ import sys
 import os
 import numpy as np
 
+import time
+
 from gui import prepare_for_connected_components, extract_icons
 
 """
@@ -39,9 +41,15 @@ pyautogui.FAILSAFE = True
 cam = cv2.VideoCapture(0)
 face_mesh = mp.solutions.face_mesh.FaceMesh(refine_landmarks=True) #using mediapipe
 
+pyautogui.moveTo(screen_w/2,screen_h/2)
+x_c, y_c = pyautogui.position()
+
+time.sleep(2)
+
 control_center_x = None
 control_center_y = None
-box_size = 0.25
+box_size = 0.08
+# box_size = 0.03 #the smaller the value the better it approximates eye tracking as opposed to head tracking - but it becomes super sensitive
 xmin = None
 ymin = None
 
